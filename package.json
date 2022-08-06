@@ -1,0 +1,15 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "gh pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://alexgl97.github.io/calculator-javascript",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
