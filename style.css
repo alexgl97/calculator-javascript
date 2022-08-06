@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(90deg, hsl(341, 65%, 48%), hsl(285, 40%, 38%));
+
+}
+.box{
+    width: 80%;
+    height: 30em;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+h1{
+    color: white;
+    font-size: 3rem;
+}
+.button{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    
+    
+}
+
+.buttons > button{
+    width: 100%;
+    height: 100%;
+}
+.display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 40px;
+    color: white;
+}
+
+@media screen  and (max-width:768px){
+    .box > h1{
+        font-size: 2rem;
+    }
+}
+@media screen  and (max-width:576px){
+    .box > h1{
+        font-size: 2rem;
+    }
+}
